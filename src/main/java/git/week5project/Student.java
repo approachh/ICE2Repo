@@ -13,8 +13,9 @@ public class Student {
     private String age;
     private String studentnumber;
     
-    Student(String given_name){
+    Student(String given_name, String given_age, String given_studentnumber){
         name = given_name;
+        age = given_age;
+        studentnumber = given_studentnumber;
     }
-    
 }
